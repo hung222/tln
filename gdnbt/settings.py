@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'gdnbt.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/postgres',
+        default='postgres://jimmy:0eW7SsP68iUGWINLUJ4vaHjUMTcpU9zu@dpg-cfm3gdqrrk07m3rl1e00-a/tlndj',
         conn_max_age=600
     )
 }
