@@ -4,3 +4,4 @@ from django.template import loader
 def index(request):
   template = loader.get_template('nobita.html')
   return HttpResponse(template.render())
+
